@@ -9,7 +9,7 @@
 | Task 1 | 13:50 | Gán A01–A12, mỗi ảnh theo trọng tâm của nó; xong thì làm A13–A16. | https://drive.google.com/drive/folders/1ptvmpDojLjXcNBU44gtj0AQ-GQNI9Ot_?usp=sharing |
 | Task 2 | 15:05 | Gán B01–B08; xong thì làm B09–B12. Dành 5 phút cuối để self-QC. | https://drive.google.com/drive/folders/1ptvmpDojLjXcNBU44gtj0AQ-GQNI9Ot_?usp=sharing |
 | Task 3 | 15:40 | Đổi lô với bạn được ghép, điền Phiếu QC 1 ([`templates/qc1_form.md`](templates/qc1_form.md)). | https://drive.google.com/drive/folders/1ptvmpDojLjXcNBU44gtj0AQ-GQNI9Ot_?usp=sharing |
-| Export | 16:15 | Export CVAT for images 1.1 (không kèm ảnh), mở lại rồi nộp. | `PYTHONPATH=src python3 -m road_lab.road_check lint NguyenNgocDuc-front.zip <tên>-fisheye.zip` |
+| Export | 16:15 | Export CVAT for images 1.1 (không kèm ảnh), mở lại rồi nộp. | `PYTHONPATH=src python3 -m road_lab.road_check lint NguyenNgocDuc-front.zip NguyenNgocDuc-fisheye.zip` |
 | Buffer | 16:35 | Sửa lô theo phiếu nhận được. Tùy chọn: hoạt động row-anchor. | `PYTHONPATH=src python3 -m road_lab.rowanchor NguyenNgocDuc-front.zip --image A01` |
 
 ## Cài đặt
